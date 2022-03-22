@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Angular Intro 2</title>
+</head>
+
+<body>
+    <div ng-app="" ng-init="firstNum = 0; secondNum = 0;">
+
+        <h2>Soma</h2>
+
+        First Number: <input type="number" ng-model="firstNum"><br>
+        Second Number: <input type="number" ng-model="secondNum"><br>
+        <br>
+        Result: {{ firstNum + secondNum }}
+        <br><br>
+
+        <h2>Subtração</h2>
+
+        First Number: <input type="number" ng-model="firstNum"><br>
+        Second Number: <input type="number" ng-model="secondNum"><br>
+        <br>
+        Result: {{ firstNum - secondNum }}
+        <br><br>
+
+        <h2>Divisão</h2>
+
+        First Number: <input type="number" ng-model="firstNum"><br>
+        Second Number: <input type="number" ng-model="secondNum"><br>
+        <br>
+        Result: {{ firstNum / secondNum }}
+        <br><br>
+
+        <h2>Multiplicação</h2>
+
+        First Number: <input type="number" ng-model="firstNum"><br>
+        Second Number: <input type="number" ng-model="secondNum"><br>
+        <br>
+        Result: {{ firstNum * secondNum }}
+        <br><br>
+    </div>
+
+
+</body>
+
+</html>
